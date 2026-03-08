@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.post {
+  width: 1080px;
+  height: 1080px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  position: relative;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  z-index: 2;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 120px;
+  margin: 0;
+}
+
+p {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 50px;
+  background: white;
+  color: #764ba2;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+/* Decorative circles */
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.top {
+  width: 400px;
+  height: 400px;
+  top: -100px;
+  right: -100px;
+}
+
+.bottom {
+  width: 300px;
+  height: 300px;
+  bottom: -100px;
+  left: -100px;
+}
